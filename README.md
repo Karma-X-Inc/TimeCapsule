@@ -7,9 +7,18 @@ TimeCapsule is a tool designed to securely transmit passphrases to Bitcoin walle
 - **Cryptography**: Utilizes AES encryption and time-lock puzzles based on repeated squaring to secure data.
 - **Customizable Delay**: Users can set a specific delay period in seconds, after which the passphrase can be decrypted.  Users can and should adjust speed based on system they expect to either be attacked on or solved on (taking into consideration threat model).  Speed was baselined on 3.4 GHz Intel system.
 
-## Installation
+## Installation on Windows
 
 TimeCapsule can be built using VisualStudio, although that requires a little bit of configuration at this moment.  Will eventually update with VS Project file, and other build files for other platforms.
+
+## Installation on Windows
+
+```
+brew install openssl
+brew install nlohmann-json
+gcc -std=c++11 -o timecapsule timecapsule_mac.cpp -I/opt/homebrew/Cellar/openssl@3/3.3.0/include -I/opt/homebrew/opt/nlohmann-json/include -L/opt/homebrew/Cellar/openssl@3/3.3.0/lib -lssl -lcrypto -lstdc++
+```
+
 
 ## Creating a New TimeLock Puzzle
 

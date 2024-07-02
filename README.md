@@ -3,7 +3,7 @@ TimeCapsule is a tool designed to securely transmit passphrases to Bitcoin walle
 
 ## Features
 
-- **Secure Transmission**: Ensures that the passphrase is locked and can only be accessed after a specific amount of computation has been performed (computational time-lock) has elapsed.
+- **Secure Passphrase Storage**: Ensures that the passphrase is locked and can only be accessed after a specific amount of computation has been performed (computational time-lock) has elapsed.
 - **Cryptography**: Utilizes AES encryption and time-lock puzzles based on repeated squaring to secure data.
 - **Customizable Delay**: Users can set a specific delay period in seconds, after which the passphrase can be decrypted.  Users can and should adjust speed based on system they expect to either be attacked on or solved on (taking into consideration threat model).  Speed was baselined on 3.4 GHz Intel system.
 

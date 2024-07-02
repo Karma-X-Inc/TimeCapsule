@@ -1,5 +1,5 @@
 # TimeCapsule
-TimeCapsule is a tool designed to securely transmit passphrases to Bitcoin wallets and other sensitive accounts using time-lock puzzles. This tool ensures that passphrases are accessible only after a predetermined period, providing a secure method for inheritance and delayed access to digital assets.
+TimeCapsule is a tool designed to securely store passphrases to Bitcoin wallets and other sensitive accounts using time-lock puzzles. This tool ensures that passphrases are accessible only after a predetermined period, providing a secure method for inheritance and delayed access to digital assets.
 
 ## Features
 
